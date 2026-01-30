@@ -24,3 +24,6 @@ python src/pipelines/train.py
 ```bash
 uvicorn src.serving.app:app --reload
 ```
+
+## CI/CD and MLOps
+All changes are automated and tested through GitHub Actions workflows.
